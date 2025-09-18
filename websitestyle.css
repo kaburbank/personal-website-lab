@@ -1,0 +1,90 @@
+* {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    color: rgb(147, 73, 136);
+    text-align: center;
+}
+
+.git {
+    color: navy;
+    text-align: center;
+}
+
+.main-content {
+  padding: 20px;
+  text-align: center;  
+}
+
+#aboutme h2 {
+    font-size: 1.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    color: rgb(1, 1, 80)
+}
+
+#aboutme p {
+    font-size: 1.0 em;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#projects h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.3em;
+    color: rgb(1, 1, 80)
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    align-items:start
+}
+
+.project-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+
+.project-item h3 {
+    background-color: #fff;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.project-item p {
+    background-color: #fff;
+    margin-bottom: 0.5em;
+    color: black;
+}
+
+.project-item img {
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+#footer {
+    color: #222;
+    padding: 2em;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
